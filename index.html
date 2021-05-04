@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel= "stylesheet" href="style.css" >
+  <title>Registration Form </title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Register With Us</h2>
+        </div>
+        <form id="regForm">
+            <div>
+                <label for="user" class="style-input">Username</label><br>
+                <input type="text" class="style-input" id="userName" placeholder="Enter your username"><br> 
+                <small id="enterUser"></small><br>
+            </div>
+            <div>
+                <label for="email" class="style-input">Email</label><br>
+                <input type="email" class="style-input" id="email" placeholder="Enter your email"><br>    
+                <small id="enterEmail"></small><br>
+            </div>
+            <div>
+                <label for="password" class="style-input">Password</label><br>
+                <input type="password" class="style-input" id="password" placeholder="Enter your password"><br>    
+                <small id="enterPsw"></small><br>
+            </div>
+            <div>
+                <label for="confirm" class="style-input">Confirm Password</label><br>
+                <input type="password" class="style-input" id="confirm" placeholder="Enter password again"><br>
+                <small id="confirmPsw"></small><br>
+            </div>
+                <input type="submit" class="style-input" id="btn" value="SUBMIT" >
+        </form>
+    </div>
+    <script src="RegistrationForm.js"></script>
+</body>
+</html> 

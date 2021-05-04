@@ -1,0 +1,41 @@
+body {
+  font-size: 30px;
+  background-color: #faa094ff;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+}
+
+.container {
+  border: solid;
+  width: max-content;
+  height: max-content;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #9ed9ccff;
+  margin: auto;
+}
+
+.style-input {
+  width: 350px;
+  height: 35px;
+  margin: 10px 15px 0 15px;
+  border-radius: 5px;
+}
+small {
+  font-size: 20px;
+  padding: 15px;
+  color: red;
+}
+
+#btn {
+  font-size: 20px;
+  padding: 10px;
+  height: min-content;
+  background-color: #008c76ff;
+}
+
+#btn:hover {
+  background-color: #ffdde2ff;
+}
